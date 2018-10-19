@@ -9,7 +9,7 @@ function whisper(string){
 function logWhisper (string){
   console.log(whisper(string));
 }
-
+function logShout(string){console.log(shout(string));}
 function sayHiToGrandma (string){
   if (string == shout(string)){
     return "YES INDEED!";
